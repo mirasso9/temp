@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer Example</title>
+
+    <!-- Link static files correctly -->
+    <link rel="stylesheet" href="{% static 'vendors/bundle.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/app.min.css' %}">
+</head>
+<body>
+
+    <!-- Content goes here -->
+
+    <!-- begin::footer -->
+    <footer>
+        <div class="container-fluid">
+            <div>© 2023 | پلتفورم خدمات <a href="https://taminsetad.com">تامین ستاد</a></div>
+            <div>
+                <nav class="nav">
+                    <a href="https://www.players98.ir" class="nav-link"> players</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+    <!-- end::footer -->
+
+    <!-- Plugin scripts -->
+    <script src="{% static 'vendors/bundle.js' %}"></script>
+
+    <!-- Chartjs -->
+    <script src="{% static 'vendors/charts/chartjs/chart.min.js' %}"></script>
+
+    <!-- Apex chart -->
+    <script src="{% static 'vendors/charts/apex/apexcharts.min.js' %}"></script>
+
+    <!-- Circle progress -->
+    <script src="{% static 'vendors/circle-progress/circle-progress.min.js' %}"></script>
+
+    <!-- Peity -->
+    <script src="{% static 'vendors/charts/peity/jquery.peity.min.js' %}"></script>
+    <script src="{% static 'assets/js/examples/charts/peity.js' %}"></script>
+
+    <!-- Datepicker -->
+    <script src="{% static 'vendors/datepicker/daterangepicker.js' %}"></script>
+    <script src="{% static 'assets/Datepiker/persian-datepicker.js' %}"></script>
+    <script src="{% static 'vendors/datepicker/bootstrap-datepicker.fa.min.js' %}"></script>
+
+    <!-- Slick -->
+    <script src="{% static 'vendors/slick/slick.min.js' %}"></script>
+
+    <!-- Vamp -->
+    <script src="{% static 'vendors/vmap/jquery.vmap.min.js' %}"></script>
+    <script src="{% static 'vendors/vmap/maps/jquery.vmap.usa.js' %}"></script>
+    <script src="{% static 'assets/js/examples/vmap.js' %}"></script>
+
+    <!-- Calendar scripts -->
+    <script src='{% static "assets/Cal/moment.js" %}'></script>
+    <script src='{% static "assets/Cal/moment-jalaali.js" %}'></script>
+    <script src='{% static "assets/Cal/fullcalendar.js" %}'></script>
+    <script src='{% static "assets/Cal/fa.js" %}'></script>
+
+    <!-- Dashboard scripts -->
+    <script src="{% static 'assets/js/examples/dashboard.js' %}"></script>
+
+    <!-- App scripts -->
+    <script src="{% static 'assets/js/app.min.js' %}"></script>
+
+    <div class="colors"> <!-- To use theme colors with Javascript -->
+        <div class="bg-primary"></div>
+        <div class="bg-primary-bright"></div>
+        <div class="bg-secondary"></div>
+        <div class="bg-secondary-bright"></div>
+        <div class="bg-info"></div>
+        <div class="bg-info-bright"></div>
+        <div class="bg-success"></div>
+        <div class="bg-success-bright"></div>
+        <div class="bg-danger"></div>
+        <div class="bg-danger-bright"></div>
+        <div class="bg-warning"></div>
+        <div class="bg-warning-bright"></div>
+    </div>
+
+</body>
+</html>
