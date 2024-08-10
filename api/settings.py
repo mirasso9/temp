@@ -44,6 +44,12 @@ INSTALLED_APPS = [
     'mebot',
     'rest_framework',
     'panel',
+    'form',
+    'kop',
+    'mat',
+    'phpmailer',
+    'script',
+
 
 
 ]
@@ -56,6 +62,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+
 ]
 
 ROOT_URLCONF = 'api.urls'
