@@ -16,7 +16,7 @@ async def hello(update: Update, context: CallbackContext):
         keyboard=B_keys,
         resize_keyboard=True,
         one_time_keyboard=True,
-        input_field_placeholder="یک گذینه را انتخاب کنید"
+        input_field_placeholder="یک گزینه را انتخاب کنید"
     )
 
     await context.bot.send_message(
